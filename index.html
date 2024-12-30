@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポケモン相性再現</title>
+</head>
+<link rel="stylesheet" href="pokemongame.css">
+<body>
+    <header>
+    <ul>
+<li><a href="#retray"><b>やり方</b></a></li>
+
+    </ul>
+</header>
+    <div class="top">
+        <br><br>
+    <h1 id="gamelogo">ポケモン相性再現</h1>
+    <br><br>
+    </div>
+    <div class="poke">
+    <p id="paragraph">自分が使いたいポケモンを選択してください</p>
+    <div id="gamearea">
+    <h4 id="aite"><b>相手の体力 1000</b></h4>
+    <div class="hukkatsu">
+    <button id='take2' class="hide"><b><a href="">もう一回やる</a></b></button>
+    </div>
+    <img src="sports_baseball_man_asia.png" id="raibaru"><br>
+    <img src="gameover.png" class="hide" id="over"><br>
+    <img src="win.png" class="hide" id="kachi">
+    <img src="hand_good.png" class="hide" id="good">
+    <div>
+<img src="visual.png" id="kusa" onclick="game(0)">
+<img src="visual (1).png" id="hono" onclick="game(1)">
+<img src="kuwassu.png" id="mizu" onclick="game(2)">
+<img src="kojio.webp" id="iwa"onclick="game(3)">
+<img src="pamo.png" id="denki" onclick="game(4)">
+    </div>
+    <h2 id="result"></h2>
+    <h4 id="zanki">自分の体力 1000</h4>
+    <h3 id="aisho">相性を確かめたいポケモンを選んでください</h3>
+<button id="restart" class="hide"><b>リトライ</b></button>
+
+<div class="retray" id="retray">
+<h2>使い方</h2>
+<p>まずなんでもいいのでポケモンの画像を押してください</p>
+
+<p>その後結果が出ます</p>
+
+<p>リトライを押すことで挑戦できます</p>
+
+<p>結果を押すと実際の集計結果が表示されます</p>
+</div>
+<script src="pokemongame.js"></script>
+</body>
+</html>
