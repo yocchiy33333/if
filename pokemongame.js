@@ -150,7 +150,6 @@ if(seizon > 0){
     over.classList.remove('hide')
     gamestop=true;
     result.innerText=' '
-    score.classList.add('hide')
     restart.classList.add('hide')
     retray.classList.add('hide')
     raibaru.src='sports_baseball_man_asia.png'
