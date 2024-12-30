@@ -136,13 +136,13 @@ aite.innerText= '相手の体力 ' + tekilife
 zanki.innerText= '自分の体力 ' + seizon
 
 
-if(tekilife > 0){
+if(tekilife => 0){
     good.classList.add('hide')
     restart.classList.remove('hide')
 }
 
 
-if(seizon > 0){
+if(seizon => ＝0){
     kachi.classList.remove('hide')
 }else{
     over.classList.remove('hide')
