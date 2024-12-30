@@ -139,7 +139,6 @@ zanki.innerText= '自分の体力 ' + seizon
 if(tekilife > 0){
 good.classList.remove('hide')
 }else{
-    good.classList.add('hide')
     restart.classList.remove('hide')
 }
 
