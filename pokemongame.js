@@ -142,7 +142,7 @@ if(tekilife => 0){
 }
 
 
-if(seizon => ＝0){
+if(seizon => 0){
     kachi.classList.remove('hide')
 }else{
     over.classList.remove('hide')
