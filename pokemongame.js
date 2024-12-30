@@ -160,6 +160,7 @@ if(seizon > 0){
     aite.classList.add('hide')
     zanki.classList.add('hide')
     take2.classList.remove('hide')
+    good.classList.remove('hide')
 }
 }
 
