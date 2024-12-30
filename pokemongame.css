@@ -1,0 +1,44 @@
+body{
+background-color: lightskyblue;
+text-align: center;
+color: white;
+}
+button{
+    background-color: #333333;
+    color:white;
+}
+img{
+  width: 240px;
+}
+
+.hide{
+display: none;
+}
+header{
+background-color: #333333;
+display: flex;
+justify-content: space-between;
+padding: 3px;
+color: white;
+}
+header ul li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: px;
+}
+header ul li a {
+    color: white;
+    padding:  9px;
+ text-decoration: none;
+}
+
+.poke{
+    background-color: lightskyblue;
+}
+.hukkatsu button{
+    background-color: #333333;
+}
+.hukkatsu button b a{
+
+color: white;
+}
