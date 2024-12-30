@@ -138,6 +138,7 @@ zanki.innerText= '自分の体力 ' + seizon
 
 if(tekilife > 0){
 good.classList.remove('hide')
+    
 }else{
     restart.classList.remove('hide')
 }
@@ -145,8 +146,9 @@ good.classList.remove('hide')
 
 if(seizon > 0){
     kachi.classList.remove('hide')
+    
 }else{
-    over.classList.remove('hide')
+    over.classList.add('hide')
     gamestop=true;
     result.innerText=' '
     restart.classList.add('hide')
@@ -159,7 +161,7 @@ if(seizon > 0){
     aite.classList.add('hide')
     zanki.classList.add('hide')
     take2.classList.remove('hide')
-    good.classList.remove('hide')
+    good.classList.add('hide')
 }
 }
 
